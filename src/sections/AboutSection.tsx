@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutSection = () => {
   return (
-    <section className='min-h-screen'>AboutSection</section>
+    <div className='min-h-screen'>AboutSection</div>
   )
 }
 
