@@ -5,6 +5,7 @@ import FaqSection from "@/sections/FaqSection";
 import HeroSection from "@/sections/HeroSection";
 import PerksSection from "@/sections/PerksSection";
 import PreviousEventSection from "@/sections/PreviousEventSection";
+import PrizeSections from "@/sections/PrizeSection";
 import SponsorSection from "@/sections/SponsorSection";
 import TeamSection from "@/sections/TeamSection";
 import TimelineSection from "@/sections/TimelineSection";
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <PerksSection />
+      <PrizeSections/>
       <TeamSection />
       <PreviousEventSection />
       <TimelineSection />
