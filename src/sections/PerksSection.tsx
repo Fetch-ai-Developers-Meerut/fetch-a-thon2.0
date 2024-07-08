@@ -13,7 +13,7 @@ const PerksSections = () => {
         sections[2] // Additional gains
     ];
   return (
-<section className="flex items-center justify-center pt-56">
+<section className="flex items-center justify-center pt-16">
       <div className="flex flex-wrap py-9 items-center gap-14 font-lexend text-white justify-center h-full w-[75%] bg-gray-300 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-transparent">
         {repeatedSections.map((section, index) => (
           <div key={index} className="flex flex-col gap-1 w-[280px] h-[145px] items-center justify-center">

@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <nav className="w-full min-h-[10vh] flex items-center justify-between px-11 flex-wrap leading-[20px] py-10 text-white font-lexend font-normal ">
 <div className="h-20 w-full flex items-center justify-between border border-gray-600 backdrop-blur-sm bg-white/5 rounded-full px-10">
-<Image src={logo} width={50} height={40} alt="logo"/>
+<Image src={logo} width={60} height={100} alt="logo"/>
       <div className='md:hidden text-xl z-50 flex items-center justify-center w-11 h-11 bg-white rounded-full ' onClick={()=> setShow(!show)}>
         {/* {show ?<RxCross2 className='text-black text-2xl'/>:< HiOutlineMenuAlt3 className=" text-black text-2xl"/>} */}
         {show ?<Image src={cross} alt="cross" width={40} height={40}/>:<Image src={menu} alt="menubar" width={20} height={20}/>} 
