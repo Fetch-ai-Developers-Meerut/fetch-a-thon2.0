@@ -26,7 +26,7 @@ export default function Home() {
       <TimelineSection />
       <SponsorSection /> */}
       <CommunitySection/>
-      <FaqSection/>
+      {/* <FaqSection/> */}
       <Footer/>
     </section>
   );
