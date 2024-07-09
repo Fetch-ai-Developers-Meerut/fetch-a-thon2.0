@@ -5,13 +5,13 @@ import { about } from '@/constants';
 
 const AboutSection = () => {
   return (
-    <section className='min-h-screen w-full font-lexendexa md:flex items-center justify-between xl:px-36 px-12 text-white pt-60'>
+    <section className='min-h-screen w-full font-lexendexa lg:flex items-center justify-center lg:px-3 px-32 gap-5 text-white pt-60'>
       {about.map((item, index) => (
-        <div key={index} className='flex flex-col xl:w-[550px] md:w-[300px] w-[580px] gap-10'>
+        <div key={index} className='flex flex-col xl:w-[550px] lg:w-[270px] gap-10'>
           <h1 className='font-normal lg:text-5xl text-4xl tracking-widest items-center'>What is 
             <br />
           fetch-a-thon?</h1>
-          <p className='font-normal text-base'>{item.description}</p>
+          <p className='font-normal lg:text-xs text-base'>{item.description}</p>
         </div>
       ))}
       <br />

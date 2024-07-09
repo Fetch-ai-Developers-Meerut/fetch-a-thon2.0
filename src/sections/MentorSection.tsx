@@ -28,7 +28,7 @@ const MentorSection = () => {
           <div 
             key={index} 
             className="w-[320px] h-[420px] flex gap-3 flex-col items-center justify-center bg-gray-300 rounded-[40px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-transparent">
-            <Image src={team.img} alt='mentor'className='lg:w-[300px] w-[200px] lg:h-[300px] h-[200px]' />
+            <Image src={team.img} alt='mentor' width={240} height={250} />
             <h2 className="text-xl font-normal leading-loose">{team.title}</h2>
             <p className="font-light text-xs text-center">{team.description}</p>
           </div>
