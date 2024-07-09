@@ -18,6 +18,8 @@ const config: Config = {
         primary: "#0C1147",
         secondary: "#152090",
         ternary: "#F9774B",
+        bl:"#D9D9D91C",
+        grad:"#202A96"
       },
     },
   },
