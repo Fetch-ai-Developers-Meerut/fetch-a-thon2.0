@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
-
-
+import "../globals.css";
 
 export const metadata: Metadata = {
-  title: "Fetch-A-Thon 2.0",
+  title: "Fetch-A-Thon 2.0 || Timeline",
   description: "Powered by fetch.ai",
 };
 

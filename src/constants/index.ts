@@ -70,7 +70,7 @@ export const sections = [
   },
 ];
 
-export const teams = [
+export const mentors = [
   {
     img: edward,
     title: "Edward FitzGerald",
@@ -159,5 +159,48 @@ export const communities = [
     name: "fetch.ai",
     title: "Title Sponsor",
     image: fetchai,
+  },
+];
+
+export const teams = [
+  {
+    img: name,
+    title: "Name",
+    description: "Lorem ipsum",
+  },
+  {
+    img: name,
+    title: "Name",
+    description: "Lorem ipsum",
+  },
+  {
+    img: name,
+    title: "Name",
+    description: "Lorem ipsum",
+  },
+  {
+    img: name,
+    title: "Name",
+    description: "Lorem ipsum",
+  },
+  {
+    img: name,
+    title: "Name",
+    description: "Lorem ipsum",
+  },
+  {
+    img: name,
+    title: "Name",
+    description: "Lorem ipsum",
+  },
+  {
+    img: name,
+    title: "Name",
+    description: "Lorem ipsum",
+  },
+  {
+    img: name,
+    title: "Name",
+    description: "Lorem ipsum",
   },
 ];
