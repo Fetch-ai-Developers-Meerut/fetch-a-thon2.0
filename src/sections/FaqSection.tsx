@@ -37,7 +37,7 @@ const FaqSection = () => {
     <section className="min-h-screen text-white flex flex-col justify-center items-center">
       <div className="w-full flex flex-col gap-3 sm:gap-4 lg:gap-5">
         <h1 className="text-3xl sm:text-5xl  2xl:text-7xl leading-[32.4px] sm:leading-[53.76px] 2xl:leading-[80.64px] text-left">
-          Frequently <br /> Asked <br /> Question's
+          Frequently <br /> Asked <br /> Question&apos;s
         </h1>
         <h4 className="mb-5 text-sm lg:text-lg 2xl:text-xl text-left">
           Questions? Look here.

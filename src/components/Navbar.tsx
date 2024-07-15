@@ -7,7 +7,6 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 
-
 export default function Navbar() {
   return (
     <Disclosure as="nav" className="sticky top-2 z-50">
@@ -71,6 +70,7 @@ export default function Navbar() {
           {nav.map((data, index) => (
             <DisclosureButton
               as="a"
+              key={index}
               href={data.link}
               className="block py-2 pl-3 pr-4 text-md font-light font-lexend text-white"
             >
