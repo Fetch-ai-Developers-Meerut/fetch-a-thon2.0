@@ -22,8 +22,8 @@ const TeamSection = () => {
             <Image src={puzzle} alt="prize" width={300} height={300} className='opacity-60'/>
             <h1 className="absolute lg:-bottom-10 -bottom-7 lg:text-7xl text-6xl text-center font-normal">Our Team</h1>
         </div>
-        <div className="w-full h-full flex flex-wrap items-center justify-center gap-4 py-32 px-40">
-        {repeatedTeams.map((team, index) => (
+        <div className="w-full h-full flex flex-wrap items-center justify-center gap-4 ">
+        {teams.map((team, index) => (
           <div 
             key={index} 
             className="w-[320px] h-[420px] flex gap-3 flex-col items-center justify-center bg-gray-300 rounded-[40px] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-transparent">
