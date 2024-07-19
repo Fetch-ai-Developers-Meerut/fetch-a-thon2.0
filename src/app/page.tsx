@@ -24,9 +24,9 @@ export default function Home() {
       <CommunitySection />
       <MentorSection />
       <FaqSection />
-      {/* <TeamSection />
+      <TeamSection />
       <PreviousEventSection />
-      <TimelineSection /> */}
+      <TimelineSection />
 
       {/* <Footer /> */}
     </section>

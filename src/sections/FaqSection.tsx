@@ -13,7 +13,7 @@ const FaqSection = () => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsam.",
     },
     {
-      question: "How many team members do I need Fetch-A-Thon?",
+      question: "How many team members do I need in Fetch-A-Thon?",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsam.",
     },
