@@ -31,7 +31,7 @@ const PreviousEventSection = () => {
 
         <div className="absolute">
           <p className="flex items-center lg:bottom-24 bottom-16 lg:text-xs text-[8px] justify-center font-Lexend_Giga text-white">
-            FetchAI's NCR Hackathon!
+            Fetch.ai&apos;s NCR Hackathon!
           </p>
           <Image
             src={img12}
