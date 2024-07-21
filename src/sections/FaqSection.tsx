@@ -34,9 +34,9 @@ const FaqSection = () => {
     },
   ];
   return (
-    <section className="min-h-screen text-white flex flex-col justify-center items-center">
+    <section className="text-white flex flex-col justify-center items-center">
       <div className="w-full flex flex-col gap-3 sm:gap-4 lg:gap-5">
-        <h1 className="text-3xl sm:text-5xl  2xl:text-7xl leading-[32.4px] sm:leading-[53.76px] 2xl:leading-[80.64px] text-left">
+        <h1 className="text-3xl sm:text-5xl font-lexendexa 2xl:text-7xl leading-[32.4px] sm:leading-[53.76px] 2xl:leading-[80.64px] text-left">
           Frequently <br /> Asked <br /> Question&apos;s
         </h1>
         <h4 className="mb-5 text-sm lg:text-lg 2xl:text-xl text-left">
@@ -52,7 +52,7 @@ const FaqSection = () => {
           >
             <dt>
               <DisclosureButton className="group flex flex-row w-full items-center sm:items-start justify-between gap-5 font-lexendexa text-left text-white">
-                <span className="leading-4 text-xs">{faq.question}</span>
+                <span className="leading-4 font-light text-xs">{faq.question}</span>
                 <span className="sm:ml-6 flex h-7 items-center">
                   <SlArrowDown
                     aria-hidden="true"

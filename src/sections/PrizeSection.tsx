@@ -13,13 +13,13 @@ const PrizeSections = () => {
         </h1>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 h-[420px] w-full gap-y-4 2xl:gap-x-2 2xl:gap-y-3">
-        <div className="bg-gray-300 rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-transparent grid place-items-center">
+        <div className="bg-gray-300 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-transparent grid place-items-center">
           1st Prize
         </div>
-        <div className="bg-gray-300 rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-transparent grid place-items-center">
+        <div className="bg-gray-300 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-transparent grid place-items-center">
           2nd Prize
         </div>
-        <div className="lg:col-span-2 bg-gray-300 rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-transparent grid place-items-center">
+        <div className="lg:col-span-2 bg-gray-300 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-transparent grid place-items-center">
           3rd Prize
         </div>
       </div>

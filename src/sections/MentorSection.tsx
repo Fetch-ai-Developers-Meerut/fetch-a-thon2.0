@@ -6,7 +6,7 @@ import { communities, mentors } from "@/constants";
 
 const MentorSection = () => {
   return (
-    <section className="flex flex-col w-full min-h-screen text-white font-lexendexa">
+    <section className="flex flex-col w-full text-white font-lexendexa py-10">
       <div className="flex flex-col items-center justify-center relative">
         <Image
           src={Imgmentors}
