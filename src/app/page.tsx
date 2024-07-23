@@ -26,7 +26,7 @@ export default function Home() {
       <PreviousEventSection />
       <TimelineSection />
       <FaqSection /> */}
-      {/* <Footer /> */}
+      <Footer />
     </section>
   );
 }
