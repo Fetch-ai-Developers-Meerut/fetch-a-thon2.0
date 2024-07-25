@@ -11,23 +11,25 @@ import PrizeSections from "@/sections/PrizeSection";
 import SponsorSection from "@/sections/SponsorSection";
 import TeamSection from "../sections/TeamSection";
 import TimelineSection from "@/sections/TimelineSection";
+import ScheduleSection from "@/sections/ScheduleSection";
 
 export default function Home() {
   return (
     <section className="w-full min-h-screen bg-backgroundGradient text-red-500">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <HeroSection /> */}
-      <AboutSection />
-      <PerksSection />
-      <PrizeSections/>
-      <MentorSection/>
-      <TeamSection/>
-      {/* <PreviousEventSection />
-      <TimelineSection />
-      <SponsorSection /> */}
-      <CommunitySection/>
+      {/* <AboutSection /> */}
+      {/* <PerksSection /> */}
+      {/* <PrizeSections/> */}
+      {/* <MentorSection/> */}
+      {/* <TeamSection/> */}
+     {/* <PreviousEventSection /> */}
+      {/* <TimelineSection />
+      <SponsorSection />  */}
+      {/* <CommunitySection/> */}
+      <ScheduleSection/>
       {/* <FaqSection/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </section>
   );
 }
